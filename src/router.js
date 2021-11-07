@@ -24,7 +24,7 @@ const routes=[
 ];
 
 
-const router= new VueRouter ({
+const router = new VueRouter ({
  linkActiveClass: "active",
   routes,
   mode: "history",

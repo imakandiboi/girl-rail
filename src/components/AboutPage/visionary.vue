@@ -81,45 +81,46 @@
 <script>
 export default {
   caption: "string",
+  image: null,
   data() {
     return {
       cards: [
         {
           key: "1",
-          image: "",
+          image: require("@/assets/image/girl.jpeg"),
           caption: "Aminat Shittu",
           text: "orem ipsum dolor sit, amet consectetur adipisicing elit. ",
         },
         {
           key: "2",
-          image: "",
+          image: require("@/assets/image/girl.jpeg"),
           caption: "MR kola-wole Idowu",
           text: "orem ipsum dolor sit, amet consectetur adipisicing elit. ",
         },
         {
           key: "3",
-          image: "./assets/image/girl.jpeg",
+          image: require("@/assets/image/girl.jpeg"),
           caption: "Anozie Ikechukwu",
           text: "orem ipsum dolor sit, amet consectetur adipisicing elit. ",
         },
       ],
-
+      image: [],
       campaigns: [
         {
           key: "1",
-          image: "",
+          image: require("@/assets/image/banner_girl.jpeg"),
           caption: "Goverment girl's college ",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ",
         },
         {
           key: "2",
-          image: "",
+          image: require("@/assets/image/banner_girl.jpeg"),
           caption: "Ansarudeen Girls High",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ",
         },
         {
           key: "3",
-          image: "./assets/image/girl.jpeg",
+          image: require("@/assets/image/banner_girl.jpeg"),
           caption: "Federal Girl's college lagos ",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ",
         },

@@ -47,7 +47,7 @@ export default {}
 .nav-item a {
   text-decoration-line: none !important;
 }
-.support-us {
+/* .support-us {
   border-radius: 5px;
   width: 100px;
   height: 50px;
@@ -58,12 +58,12 @@ export default {}
 .support-us a {
   width: 80px;
   color: black !important;
-}
-
+} */
+/* 
 @media screen and (max-width: 756px) {
   .support-us a {
     color: black !important;
     width: 100px;
   }
-}
+} */
 </style>
