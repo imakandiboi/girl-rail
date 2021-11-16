@@ -4,9 +4,9 @@
       <div class="banner mx-auto ">
         <div class="row ">
           <div class="col-md-6 align-center">
-            <h1 class=" py-8 ">Giving the <span style="color: red;">Girl Child</span> A voice</h1>
+            <h1 class=" py-8 ">Giving voice to the <span style="color: red;">Girl Child</span> .</h1>
             <p>...Providing proper orientation to girl child in the society.</p>
-            <p>Empowering with adequate information,skill <span style="color: red;">Aquisation & Leadership roles</span> in the society...</p>
+            <p>Empowering the <span style="color: red;">girlchild in education, wellbeing, leadership and career.</span></p>
 
             <div class="row pt-4">
               <div class="col-md-3">

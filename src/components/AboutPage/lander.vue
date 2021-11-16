@@ -1,30 +1,38 @@
 <template>
   <div>
-    <b-carousel id="carousel-1" style="text-shadow: 0px 0px 2px #000 ; height:50vh;" controls indicators fade img-width="1024" class="slider" img-height="480">
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="slider-img img-fluid w-100" src="@/assets/image/pic2.png" width="1000" height="500" alt="Atomic Habits" />
-        </template>
-      </b-carousel-slide>
+    <section>
+      <!-- backgound video -->
 
-      <b-carousel-slide>
-        <template v-slot:img>
-          <img class="slider-img img-fluid w-100" src="@/assets/image/banner_background.webp" width="1000" height="500" alt="Atomic Habits" />
-        </template>
-      </b-carousel-slide>
-    </b-carousel>
+      <vue-video-section :elementId="'header-background-video'" :ref="'header-background-video'" :mp4Source="require('@/assets/image/video.mp4')" :playsinline="true" :loop="true" :autoplay="true" :autobuffer="true" :muted="true">
+        <div slot="overlay-content" class="overlay-content pt-5">
+          <div class="container py-4">
+            <div class="row justify-content-center">
+              <div class="col-lg-12 text-center text-white">
+                <h2><strong>Raise A Girl, Build a Nation</strong></h2>
+              </div>
+            </div>
+          </div>
+          <div class="container py-4">
+            <div class="row justify-content-center mb-4">
+              <div class="col-lg-6 text-center text-light">
+                <p class="video-caption">We Are focused on the Girl child.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </vue-video-section>
+    </section>
   </div>
 </template>
 
 <script>
-import { BCarousel, BCarouselSlide } from "bootstrap-vue"
+import VueVideoSection from 'vue-video-section'
 
 export default {
-  name: "lander",
+  name: 'lander',
 
   components: {
-    BCarousel,
-    BCarouselSlide,
+    VueVideoSection,
   },
 
   // data() {

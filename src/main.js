@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Vue.use(VueRouter)
 
-
+import 'vue-video-section/dist/vue-video-section.css'
 Vue.use(VueAgile)
 
 // Make BootstrapVue available throughout your project

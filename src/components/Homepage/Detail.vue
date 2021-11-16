@@ -2,11 +2,12 @@
   <div>
     <div class=" container-fluid detail-section pt-5 pb-4">
       <div class="container  text-center  detail">
-        <h1 class="text-success display-2 pb-3 ">Our Mission</h1>
+        <h1 class="text-success display-2 pb-3 ">Who we are</h1>
         <h4 class=" mt-3 text-black">
-          We are a Non-governmental platform with its root course in helping the girlchild succeed in every community they find themselves. GRI was founded in 2020, as an idea to help young girls lean on a shoulder, that can guide them aright in all spheres of life.
+          We are a Non-governmental platform with our root course in helping the girlchild succeed in every community they find themselves. GRI was founded in 2020 as an idea to help young girls lean on a shoulder that can guide them aright in all spheres of life. This is what we do.
         </h4>
       </div>
+      bh
       <div class="container pt-3">
         <hr />
       </div>

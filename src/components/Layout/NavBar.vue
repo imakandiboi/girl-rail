@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success pt-4 pb-3 px-4">
+    <nav class="navbar-fixed-top navbar navbar-expand-lg navbar-dark bg-success pt-4 pb-3 px-4">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Girl Rail Initiative </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,24 +8,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item js-scroll-trigger">
               <router-link :to="{ name: 'Home' }">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="js-scroll-trigger nav-link active" aria-current="page" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">Home</a>
               </router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item js-scroll-trigger">
               <router-link :to="{ name: 'About' }">
-                <a class="nav-link" href="#">About Us </a>
+                <a class="js-scroll-trigger nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">About Us </a>
               </router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item js-scroll-trigger">
               <router-link :to="{ name: 'Goals' }">
-                <a class="nav-link" href="#">Our Goals </a>
+                <a class="js-scroll-trigger nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">Our Goals </a>
               </router-link>
             </li>
             <li class="nav-item support-us ">
               <router-link :to="{ name: 'Goals' }">
-                <a class="nav-link" href="#">Donate </a>
+                <a class="js-scroll-trigger nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#">Donate </a>
               </router-link>
             </li>
           </ul>
@@ -36,7 +36,20 @@
 </template>
 
 <script>
-export default {}
+import $ from "jquery"
+export default {
+  data() {
+    return {
+      setup() {},
+      mounted() {
+        // Your JQuery code here
+        $(".js-scroll-trigger").click(function() {
+          $(".navbar-collapse").collapse("hide")
+        })
+      },
+    }
+  },
+}
 </script>
 <style scoped>
 @import url(https://fonts.googleapis.com/css?family=Lobster);

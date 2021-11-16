@@ -4,7 +4,7 @@
       <h1>Visionary</h1>
 
       <div class="row g-2 card-sec">
-        <div v-for="(card, index) in cards" :key="index" class="col-md-4">
+        <div v-for="(card, index) in cards" :key="index" class="col-md-3">
           <div class="card-container">
             <div class="card">
               <img :src="card.image" alt="image" srcset="" />
@@ -15,25 +15,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-4">
-          <div class="card-container">
-            <div class="card">
-              <img src="" alt="image" srcset="" />
-              <h4 class="card-caption">card-cap</h4>
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure, possimus neque quam rem eum similique voluptates qui facilis. Eaque quibusdam aut pariatur amet.</p>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="col-md-4">
-          <div class="card-container">
-            <div class="card">
-              <img src="" alt="image" srcset="" />
-              <h4 class="card-caption">card-cap</h4>
-              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat incidunt iure, possimus neque quam rem eum similique voluptates qui facilis. Eaque quibusdam aut pariatur amet.</p>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
 
@@ -65,7 +46,7 @@
         <div v-for="(campaign, index) in campaigns" :key="index" class="col-md-4">
           <div class="card-container">
             <div class="card">
-              <img :src="campaign.image" alt="image" srcset="" />
+              <img :src="campaign.image" alt="image" srcset="" class="e24" />
               <h4 class="card-caption">
                 {{ campaign.caption }}
               </h4>
@@ -80,49 +61,55 @@
 
 <script>
 export default {
-  caption: "string",
+  caption: 'string',
   image: null,
   data() {
     return {
       cards: [
         {
-          key: "1",
-          image: require("@/assets/image/girl.jpeg"),
-          caption: "Aminat Shittu",
-          text: "orem ipsum dolor sit, amet consectetur adipisicing elit. ",
+          key: '1',
+          image: require('@/assets/image/ta.jpg'),
+          caption: 'TAIWO (GRI PROGRAM MANAGER)',
+          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
-          key: "2",
-          image: require("@/assets/image/girl.jpeg"),
-          caption: "MR kola-wole Idowu",
-          text: "orem ipsum dolor sit, amet consectetur adipisicing elit. ",
+          key: '2',
+          image: require('@/assets/image/se.jpg'),
+          caption: 'SELIYAT(GRI SECRETARY)',
+          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
-          key: "3",
-          image: require("@/assets/image/girl.jpeg"),
-          caption: "Anozie Ikechukwu",
-          text: "orem ipsum dolor sit, amet consectetur adipisicing elit. ",
+          key: '3',
+          image: require('@/assets/image/ka.jpg'),
+          caption: 'KAFAYAT(GRI CHAIRPERSON)',
+          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
+        },
+        {
+          key: '4',
+          image: require('@/assets/image/kkk.jpg'),
+          caption: 'KAFAYAT(GRI CHAIRPERSON)',
+          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
       ],
       image: [],
       campaigns: [
         {
-          key: "1",
-          image: require("@/assets/image/banner_girl.jpeg"),
+          key: '1',
+          image: require('@/assets/image/banner_girl.jpeg'),
           caption: "Goverment girl's college ",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ",
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
         },
         {
-          key: "2",
-          image: require("@/assets/image/banner_girl.jpeg"),
-          caption: "Ansarudeen Girls High",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ",
+          key: '2',
+          image: require('@/assets/image/banner_girl.jpeg'),
+          caption: 'Ansarudeen Girls High',
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
         },
         {
-          key: "3",
-          image: require("@/assets/image/banner_girl.jpeg"),
+          key: '3',
+          image: require('@/assets/image/banner_girl.jpeg'),
           caption: "Federal Girl's college lagos ",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ",
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
         },
       ],
     }
@@ -143,7 +130,7 @@ export default {
   text-align: center;
   color: rgb(36, 92, 48);
   font-weight: 400;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
 
   font-size: 2.5em;
 }
@@ -154,7 +141,7 @@ export default {
 
 .card-caption {
   padding: 10px 5px;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
   font-weight: bold;
   font-size: 30px;
   color: #154419e0;
@@ -166,13 +153,13 @@ export default {
 }
 .card-text {
   padding: 20px 15px;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
   font-weight: bold;
 }
 
 .vision-desc {
   padding: 40px 0px;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
 }
 
 .detail-vision {
@@ -185,8 +172,11 @@ export default {
   text-align: center;
   color: rgb(36, 92, 48);
   font-weight: 400;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
   font-size: 2.5em;
+}
+img .e24 {
+  height: 30px;
 }
 
 @media screen and (max-width: 760px) {
