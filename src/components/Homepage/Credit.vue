@@ -66,7 +66,7 @@
             </div>
             <div class="col-md-6">
               <h4 class=" text-success right-caption display-4 pb-1  ">we received world-wide <span style="color:red">recognition.. </span></h4>
-              <p class=" pt-2 pb-2 " style="width:80% ; margin:0px auto">
+              <p class=" pt-2 pb-2  right-para" style="width:80% ; margin:0px auto">
                 {{ text }}
               </p>
             </div>
@@ -78,9 +78,9 @@
 </template>
 
 <script>
-import { BCarousel, BCarouselSlide } from "bootstrap-vue"
+import { BCarousel, BCarouselSlide } from 'bootstrap-vue'
 export default {
-  name: "Credits",
+  name: 'Credits',
   components: {
     // agile: VueAgile,
     BCarousel,
@@ -89,9 +89,9 @@ export default {
 
   data() {
     return {
-      text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequuntur neque, id excepturi voluptates ut consectetur? Neque quo laboriosam qui nisi, voluptas, magni animi expedita culpa optio, incidunt aperiam eligendi?",
+      text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequuntur neque, id excepturi voluptates ut consectetur? Neque quo laboriosam qui nisi, voluptas, magni animi expedita culpa optio, incidunt aperiam eligendi?',
 
-      slides: ["https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.qL6IW88SmTwGFCCUPFcsJgHaEK%26pid%3DApi&f=1", "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FjfS2J72YpMIxj9M8IhctAHaFn%26pid%3DApi&f=1"],
+      slides: ['https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.qL6IW88SmTwGFCCUPFcsJgHaEK%26pid%3DApi&f=1', 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FjfS2J72YpMIxj9M8IhctAHaFn%26pid%3DApi&f=1'],
     }
   },
 }
@@ -115,7 +115,7 @@ export default {
   text-align: center;
   font-size: 16px;
   font-weight: 800;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
 }
 .icon {
   display: flex;
@@ -140,5 +140,22 @@ i {
 
 .slide.slide--thumbniail >>> img {
   width: 100% !important;
+}
+
+@media screen and (max-width: 760px) {
+  .credits {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .right-caption {
+    font-size: 30px;
+    text-align: left;
+  }
+  .right-para {
+    width: 100% !important;
+    text-align: left;
+    margin: 10px 0px !important;
+  }
 }
 </style>

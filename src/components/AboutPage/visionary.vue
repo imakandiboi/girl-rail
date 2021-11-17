@@ -68,25 +68,25 @@ export default {
       cards: [
         {
           key: '1',
-          image: require('@/assets/image/ta.jpg'),
+          image: require('@/assets/image/girl.jpeg'),
           caption: 'TAIWO (GRI PROGRAM MANAGER)',
           text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
           key: '2',
-          image: require('@/assets/image/se.jpg'),
+          image: require('@/assets/image/girl.jpeg'),
           caption: 'SELIYAT(GRI SECRETARY)',
           text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
           key: '3',
-          image: require('@/assets/image/ka.jpg'),
+          image: require('@/assets/image/girl.jpeg'),
           caption: 'KAFAYAT(GRI CHAIRPERSON)',
           text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
           key: '4',
-          image: require('@/assets/image/kkk.jpg'),
+          image: require('@/assets/image/girl.jpeg'),
           caption: 'KAFAYAT(GRI CHAIRPERSON)',
           text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },

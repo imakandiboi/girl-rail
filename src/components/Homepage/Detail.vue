@@ -7,20 +7,18 @@
           We are a Non-governmental platform with our root course in helping the girlchild succeed in every community they find themselves. GRI was founded in 2020 as an idea to help young girls lean on a shoulder that can guide them aright in all spheres of life. This is what we do.
         </h4>
       </div>
-      bh
+
       <div class="container pt-3">
         <hr />
       </div>
     </div>
     <div class="container-fluid what-we-do">
-      <div class="boxing">
+      <div class="boxing ">
         <div class="row">
           <div class="col-md-6">
-            <div class="image-container">
-              <center>
-                <img src="@/assets/image/girl.jpeg" alt="" width="650px" />
-              </center>
-            </div>
+            <center>
+              <img src="@/assets/image/girl.jpeg" alt="" width="650px" />
+            </center>
           </div>
           <div class="col-md-6">
             <div class="text-container mt-4">
@@ -41,11 +39,11 @@
 
 <script>
 export default {
-  name: "Detail",
+  name: 'Detail',
 
   data() {
     return {
-      image: "@/assets/image/girl.jpeg",
+      image: '@/assets/image/girl.jpeg',
     }
   },
 }
@@ -58,7 +56,7 @@ export default {
 }
 
 .detail h4 {
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
   font-weight: bolder;
   line-height: 2em;
   font-size: 18px;
@@ -74,7 +72,7 @@ export default {
 
 .text-caption-box {
   padding: 20px 40px;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
   margin-bottom: 60px;
   width: 100%;
   height: auto;
@@ -86,8 +84,7 @@ export default {
   line-height: 2em;
 }
 img {
-  border-radius: 14px;
-  box-shadow: -2px 13px 58px rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -95,6 +92,22 @@ img {
   img {
     padding: 50px 0px !important;
     width: 100%;
+  }
+  .text-caption-box {
+    padding: 0px 10px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 60px;
+    width: 100%;
+    height: auto;
+    border: 0px rgb(182, 180, 180);
+  }
+  .boxing {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .detail h1,
+  h4 {
+    text-align: left;
   }
 }
 </style>
