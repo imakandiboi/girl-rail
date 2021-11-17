@@ -27,7 +27,9 @@
               </div>
 
               <div class="text-caption-box">
-                <p class="font-weight-lighter content ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia enim doloribus, necessitatibus quo est alias porro fugiat quibusdam sed ut nulla neque harum consequuntur nihil iure animi modi sequi repellendus. Nam totam debitis deserunt. Deleniti, quaerat officiis doloribus dolorem blanditiis assumenda sed quis totam animi necessitatibus sit, minima repellendus in.</p>
+                <p class="font-weight-lighter content ">
+                  We, understand that educating the girlchild can help reduce to the minimum all manners of social evils, discrimination, and devaluation of this gender. It is a known fact that both gender should be nurtured, however, GRI has chosen to focus on the girlchild and sometimes organize programmes that would benefit both genders.
+                </p>
               </div>
             </div>
           </div>

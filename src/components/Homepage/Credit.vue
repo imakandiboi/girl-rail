@@ -19,8 +19,10 @@
                   <i class="fas fa-globe"></i>
                 </div>
                 <div class="col-md-8 text-center">
-                  <h4 class="">Gaining Recognition.</h4>
-                  <p class="text-left">"Girl Rail Initiative is the ...Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex, cumque animi ratione officia inventore modi molestias accusamus quasi alias. Rerum voluptatum rem sint explicabo ut, culpa temporibus nihil recusandae."</p>
+                  <h4 class="">Education</h4>
+                  <p class="text-left">
+                    On Education, we provide help in getting the girlchild educated in all sphere, our education support system is not limited to academic, it also includes digital skills, vocational skills among others.
+                  </p>
                 </div>
               </div>
             </div>
@@ -33,8 +35,10 @@
                   <i class="far fa-handshake"></i>
                 </div>
                 <div class="col-md-8 text-center">
-                  <h4 class="">Gaining Recognition.</h4>
-                  <p class="text-left">"Girl Rail Initiative is the ...Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex, cumque animi ratione officia inventore modi molestias accusamus quasi alias. Rerum voluptatum rem sint explicabo ut, culpa temporibus nihil recusandae."</p>
+                  <h4 class="">Wellbeing</h4>
+                  <p class="text-left">
+                    On wellbeing, we are on standby in food and drinks provision for the needee girlchild, we are also dedicated to providing medical support in all capacity. Until we ascertain that the girlchild is fit mentally and physically, we are not done.
+                  </p>
                 </div>
               </div>
             </div>
@@ -46,8 +50,10 @@
                   <i class="fas fa-restroom"></i>
                 </div>
                 <div class="col-md-8 text-center">
-                  <h4 class="">Gaining Recognition.</h4>
-                  <p class="text-left">"Girl Rail Initiative is the ...Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex, cumque animi ratione officia inventore modi molestias accusamus quasi alias. Rerum voluptatum rem sint explicabo ut, culpa temporibus nihil recusandae."</p>
+                  <h4 class="">Leadership & Career</h4>
+                  <p class="text-left">
+                    Leadership and career is another foremost of our call, we cannot continue to see the girlchild suffer in leadership and in their career endaevour. This is why we exist, we exist to bridge the gap in the girlchild career growth regardless of the discipline.
+                  </p>
                 </div>
               </div>
             </div>
@@ -89,7 +95,7 @@ export default {
 
   data() {
     return {
-      text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro consequuntur neque, id excepturi voluptates ut consectetur? Neque quo laboriosam qui nisi, voluptas, magni animi expedita culpa optio, incidunt aperiam eligendi?',
+      text: 'Regardless of race, religion and group, GRI is committed to bringing up the girlchild in every community across Africa. We are a point of contact and a facilitator of growth amongst the girlchild. We do not wait for a reach out, we look for and do reach out to the girlchild for in this lies our purpose.',
 
       slides: ['https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.qL6IW88SmTwGFCCUPFcsJgHaEK%26pid%3DApi&f=1', 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FjfS2J72YpMIxj9M8IhctAHaFn%26pid%3DApi&f=1'],
     }
