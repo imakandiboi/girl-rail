@@ -8,9 +8,9 @@
           <div class="card-container">
             <div class="card">
               <img :src="card.image" alt="image" srcset="" />
-              <h4 class="card-caption">
+              <h6 class="card-caption">
                 {{ card.caption }}
-              </h4>
+              </h6>
               <p class="card-text">{{ card.text }}</p>
             </div>
           </div>
@@ -21,7 +21,7 @@
     <div class="vision-desc container">
       <div class=" detail-vision row">
         <h2><span style="color:red">OUR</span> AMBASSADORS</h2>
-        <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At magnam illo harum ducimus veniam aut cupiditate fugit, fugiat aperiam laborum.</p>
+        <p style="padding-bottom: 40px" class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At magnam illo harum ducimus veniam aut cupiditate fugit, fugiat aperiam laborum.</p>
         <div class="col-md-6  ">
           <div class="col">
             <h1>lorem</h1>
@@ -70,25 +70,21 @@ export default {
           key: '1',
           image: require('@/assets/image/girl.jpeg'),
           caption: 'TAIWO (GRI PROGRAM MANAGER)',
-          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
           key: '2',
           image: require('@/assets/image/girl.jpeg'),
           caption: 'SELIYAT(GRI SECRETARY)',
-          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
           key: '3',
           image: require('@/assets/image/girl.jpeg'),
           caption: 'KAFAYAT(GRI CHAIRPERSON)',
-          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
         {
           key: '4',
           image: require('@/assets/image/girl.jpeg'),
           caption: 'KAFAYAT(GRI CHAIRPERSON)',
-          text: 'orem ipsum dolor sit, amet consectetur adipisicing elit. ',
         },
       ],
       image: [],
@@ -97,19 +93,19 @@ export default {
           key: '1',
           image: require('@/assets/image/banner_girl.jpeg'),
           caption: "Goverment girl's college ",
-          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
+          text: 'Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
         },
         {
           key: '2',
           image: require('@/assets/image/banner_girl.jpeg'),
           caption: 'Ansarudeen Girls High',
-          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
+          text: 'Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
         },
         {
           key: '3',
           image: require('@/assets/image/banner_girl.jpeg'),
           caption: "Federal Girl's college lagos ",
-          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo, animi error tempore eius dolore ducimus reiciendis cumque repellendus quisquam. Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
+          text: 'Libero officia eum consequatur porro, quia perferendis officiis ut accusantium et autem atque doloribus, odit temporibus harum. Expedita ut libero dolorem repellendus quae harum porro deserunt quasi illo earum! Nihil ad magni repellat facilis, molestiae eum. In id excepturi obcaecati vitae! Quo culpa qui sint similique neque nesciunt, repudiandae magni laboriosam voluptas harum praesentium quibusdam quaerat quasi nisi architecto est temporibus quae. Rem exercitationem dolorem eius perspiciatis dolor, et in modi quod laboriosam est corporis aspernatur nisi id nemo obcaecati. ',
         },
       ],
     }
@@ -121,7 +117,7 @@ export default {
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 .mission {
-  padding: 80px 0px;
+  padding: 40px 0px;
 }
 
 .mission h1 {
@@ -143,12 +139,13 @@ export default {
   padding: 10px 5px;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   color: #154419e0;
   text-align: center;
   text-transform: capitalize;
 }
 .card-sec {
+  font-size: 15px;
   padding: 0px;
 }
 .card-text {
